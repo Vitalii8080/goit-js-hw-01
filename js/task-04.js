@@ -13,25 +13,25 @@
 // если сумма к оплате превышает количество кредитов на счету, выводи в консоль сообщение 'Недостаточно средств на счету для покупки [количество] дроидов на сумму [сумма], на счету доступно [сумма] кредитов. Вы можете купить максимум [количество] дроидов.'.
 // в противном случае необходимо посчитать остаток кредитов на счету и вывести сообщение 'Вы купили [число] дроидов на сумму [сумма], на счету осталось [число] кредитов.'
 
-// let credits = 23580;
-// const pricePerDroid = 3000;
-// const quantity = prompt('Введите количество дроидов, которые хотите купить');
-// let totalPrice = pricePerDroid * quantity;
-// let balanceCredit = credits - totalPrice;
-// let maxDroid = credits / pricePerDroid;
-// if (quantity === null) {
-//   console.log('Отменено пользователем!');
-// } else if (totalPrice > credits) {
-//   console.log(
-//     `Недостаточно средств на счету для покупки ${quantity} дроидов на сумму ${totalPrice}, на счету доступно ${credits} кредитов. Вы можете купить максимум ${Math.floor(
-//       maxDroid,
-//     )} дроидов.`,
-//   );
-// } else if (credits > totalPrice) {
-//   console.log(
-//     `Вы купили ${quantity} дроидов на сумму ${totalPrice}, на счету осталось ${balanceCredit} кредитов.`,
-//   );
-// }
+//  let credits = 23580;
+//  const pricePerDroid = 3000;
+//  const quantity = prompt('Введите количество дроидов, которые хотите купить');
+//  let totalPrice = pricePerDroid * quantity;
+//  let balanceCredit = credits - totalPrice;
+//  let maxDroid = credits / pricePerDroid;
+//  if (quantity === null) {
+//    console.log('Отменено пользователем!');
+//  } else if (totalPrice > credits) {
+//    console.log(
+    //  `Недостаточно средств на счету для покупки ${quantity} дроидов на сумму ${totalPrice}, на счету доступно ${credits} кредитов. Вы можете купить максимум ${Math.floor(
+    //    maxDroid,
+    //  )} дроидов.`,
+//    );
+//  } else if (credits > totalPrice) {
+//    console.log(
+    //  `Вы купили ${quantity} дроидов на сумму ${totalPrice}, на счету осталось ${balanceCredit} кредитов.`,
+//    );
+//  }
 
 // Задача 1 - 4
 // Использование if else и арифметических операторов

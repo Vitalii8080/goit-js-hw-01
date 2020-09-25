@@ -10,20 +10,20 @@
 // const ADMIN_PASSWORD = 'jqueryismyjam';
 // let message;
 
-// const ADMIN_PASSWORD = 'jqueryismyjam';
-// let message;
+ //const ADMIN_PASSWORD = 'jqueryismyjam';
+//  let message;
 
-// const password = prompt('Введите пароль');
-// if (password === null) {
-//     console.log(message = 'Отменено пользователем!');
-// }
-// else if (password === ADMIN_PASSWORD) {
-//     console.log(message = 'Добро пожаловать!');
-// }
-// else if (password !== ADMIN_PASSWORD) {
-//     console.log(message = 'Доступ запрещен, неверный пароль!');
-// }
-// alert(message);
+//   const password = prompt('Введите пароль');
+//   if (password === null) {
+    //  console.log(message = 'Отменено пользователем!');
+//   }
+//  else if (password === ADMIN_PASSWORD) {
+    //  console.log(message = 'Добро пожаловать!');
+//   }
+//  else if (password !== ADMIN_PASSWORD) {
+    //   console.log(message = 'Доступ запрещен, неверный пароль!');
+//  }
+//   alert(message);
 
 // Задача 1 - 3
 // Использование if else
@@ -50,9 +50,14 @@
 // const ACCESS_DENIED = 'Доступ запрещен, неверный пароль!';
 // let message;
 
-// // Write code under this line
-// if (userPassword === ADMIN_PASSWORD) {
-//   message = ACCESS_IS_ALLOWED;
-// } else if (userPassword === null) {
-//   message = CANCELED_BY_USER;
-// }
+// Write code under this line
+//if (ADMIN_PASSWORD === userPassword) {
+  //  message = ACCESS_IS_ALLOWED;
+  //} else if (userPassword === null) {
+  //  message = CANCELED_BY_USER;
+  //} else if ( ADMIN_PASSWORD !== userPassword) {
+   // message = ACCESS_DENIED;
+  //}
+ //console.log(message);
+ //alert(message);
+ 
