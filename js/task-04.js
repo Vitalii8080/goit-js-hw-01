@@ -23,13 +23,13 @@
 //    console.log('Отменено пользователем!');
 //  } else if (totalPrice > credits) {
 //    console.log(
-    //  `Недостаточно средств на счету для покупки ${quantity} дроидов на сумму ${totalPrice}, на счету доступно ${credits} кредитов. Вы можете купить максимум ${Math.floor(
-    //    maxDroid,
-    //  )} дроидов.`,
+//  `Недостаточно средств на счету для покупки ${quantity} дроидов на сумму ${totalPrice}, на счету доступно ${credits} кредитов. Вы можете купить максимум ${Math.floor(
+//    maxDroid,
+//  )} дроидов.`,
 //    );
 //  } else if (credits > totalPrice) {
 //    console.log(
-    //  `Вы купили ${quantity} дроидов на сумму ${totalPrice}, на счету осталось ${balanceCredit} кредитов.`,
+//  `Вы купили ${quantity} дроидов на сумму ${totalPrice}, на счету осталось ${balanceCredit} кредитов.`,
 //    );
 //  }
 
